@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAé Réalisées · Portfolio</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+.page-wrap { max-width: 900px; margin: 0 auto; padding: 80px 40px 80px; }
+.page-title { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 8px; }
+.page-sub { font-size: 14px; color: var(--muted); margin-bottom: 48px; }
+.saes-list { border-top: 1px solid var(--border); }
+.sae-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 0; border-bottom: 1px solid var(--border);
+  text-decoration: none; color: var(--text); transition: padding-left .2s;
+}
+.sae-row:hover { padding-left: 8px; }
+.sae-period { font-size: 11px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+.sae-row h2 { font-size: 15px; font-weight: 500; margin-bottom: 3px; }
+.sae-row .sae-sub { font-size: 12px; color: var(--muted); }
+.sae-arrow { color: var(--muted); font-size: 16px; flex-shrink: 0; margin-left: 20px; }
+@media (max-width: 600px) { .page-wrap { padding: 76px 18px 60px; } }
+</style>
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="../index.html">Adrien Jouin</a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Accueil</a></li>
+    <li><a href="apropos.html">À propos</a></li>
+    <li><a href="competences.html">Compétences</a></li>
+    <li><a href="saes.html" class="active">SAé</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="page-wrap">
+  <p class="page-title">Apprentissages</p>
+  <h1>SAé Réalisées</h1>
+  <p class="page-sub">8 projets · BUT Science des Données · S1 &amp; S2</p>
+  <div class="saes-list">
+    <a href="sae/demographie.html" class="sae-row">
+      <div><p class="sae-period">Oct – Nov</p><h2>Réarmement démographique</h2></div>
+      <span class="sae-arrow">→</span>
+    </a>
+    <a href="sae/python-json.html" class="sae-row">
+      <div><p class="sae-period">Novembre</p><h2>Écriture et lecture de fichiers de données</h2><p class="sae-sub">Python · JSON</p></div>
+      <span class="sae-arrow">→</span>
+    </a>
+    <a href="sae/vba.html" class="sae-row">
+      <div><p class="sae-period">Décembre</p><h2>SAé VBA · Création d'un reporting de notes</h2></div>
+      <span class="sae-arrow">→</span>
+    </a>
+    <a href="sae/bdd.html" class="sae-row">
+      <div><p class="sae-period">Fév – Avr</p><h2>Conception et implémentation d'une base de données</h2></div>
+      <span class="sae-arrow">→</span>
+    </a>
+    <a href="sae/kpi.html" class="sae-row">
+      <div><p class="sae-period">Avril</p><h2>Construction et présentation d'indicateurs de performance</h2><p class="sae-sub">Fleury-Michon</p></div>
+      <span class="sae-arrow">→</span>
+    </a>
+    <a href="sae/stats-regression.html" class="sae-row">
+      <div><p class="sae-period">Avril</p><h2>SAé Statistiques descriptives 2 · Régression linéaire</h2><p class="sae-sub">Modélisation des prix immobiliers niortais</p></div>
+      <span class="sae-arrow">→</span>
+    </a>
+    <a href="sae/stats-inf.html" class="sae-row">
+      <div><p class="sae-period">Mai</p><h2>SAé Statistiques inférentielles</h2><p class="sae-sub">Échantillonnage et estimation</p></div>
+      <span class="sae-arrow">→</span>
+    </a>
+    <a href="sae/dataviz.html" class="sae-row">
+      <div><p class="sae-period">Mai</p><h2>SAé Dataviz · La démographie en France</h2><p class="sae-sub">🥇 1er ex-æquo avec l'IUT de Paris</p></div>
+      <span class="sae-arrow">→</span>
+    </a>
+  </div>
+</div>
+</body>
+</html>
