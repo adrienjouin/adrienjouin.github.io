@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAé Statistiques descriptives 2 · Régression linéaire · Portfolio</title>
+<link rel="stylesheet" href="../../style.css">
+<style>
+.sae-wrap { max-width: 720px; margin: 0 auto; padding: 80px 40px 80px; }
+.back-link { display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);text-decoration:none;margin-bottom:40px;transition:color .15s; }
+.back-link:hover { color:var(--text); }
+.sae-period { font-size:11px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px; }
+h1 { font-size:24px;font-weight:600;letter-spacing:-0.01em;margin-bottom:40px;line-height:1.3; }
+.sae-img { width:100%;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:48px;overflow:hidden; }
+.sae-img img { width:100%;height:auto;display:block; }
+.section { margin-bottom:40px;padding-bottom:40px;border-bottom:1px solid var(--border); }
+.section:last-of-type { border-bottom:none; }
+.section-label { font-size:11px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:14px; }
+.tags { display:flex;flex-wrap:wrap;gap:8px; }
+.tag { font-size:12px;font-weight:500;padding:5px 12px;border:1px solid var(--border);border-radius:20px;color:var(--text); }
+p,li { font-size:14px;line-height:1.8;color:#333; }
+ul { padding-left:18px; }
+li { margin-bottom:4px; }
+.bottom-nav { display:flex;justify-content:space-between;align-items:center;padding-top:32px;margin-top:40px;border-top:1px solid var(--border); }
+.bottom-nav a { font-size:12px;font-weight:500;color:var(--muted);text-decoration:none;transition:color .15s; }
+.bottom-nav a:hover { color:var(--text); }
+@media (max-width:600px) { .sae-wrap { padding:76px 18px 60px; } }
+</style>
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="../../index.html">Adrien Jouin</a>
+  <ul class="nav-links">
+    <li><a href="../../index.html">Accueil</a></li>
+    <li><a href="../apropos.html">À propos</a></li>
+    <li><a href="../competences.html">Compétences</a></li>
+    <li><a href="../saes.html" class="active">SAé</a></li>
+    <li><a href="../contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="sae-wrap">
+  <a class="back-link" href="../saes.html">← Retour aux SAé</a>
+  <p class="sae-period">Avril</p>
+  <h1>SAé Statistiques descriptives 2 · Régression linéaire</h1>
+  <div class="section">
+    <p class="section-label">Description</p>
+    <p>Modélisation statistique des prix immobiliers dans la Communauté d'Agglomération du Niortais à partir de données réelles de transactions (appartements et maisons depuis 2021). Le travail comprenait une exploration des données, une segmentation par type de logement ou localisation, puis l'ajustement de modèles de régression linéaire simple et l'évaluation de leur qualité.</p>
+  </div>
+  <div class="section">
+    <p class="section-label">Compétences acquises</p>
+    <div class="tags">
+      <span class="tag">Régression linéaire simple (RLS)</span>
+      <span class="tag">Transformations de variables</span>
+      <span class="tag">Coefficient de détermination R²</span>
+      <span class="tag">Segmentation</span>
+      <span class="tag">R natif</span>
+    </div>
+  </div>
+  <div class="section">
+    <p class="section-label">Outils &amp; Technologies</p>
+    <ul>
+      <li>R — modélisation statistique en natif (sans lm() ni predict())</li>
+      <li>Excel / Power BI — exploration et visualisation</li>
+    </ul>
+  </div>
+  <div class="section">
+    <p class="section-label">Ce que j'ai appris</p>
+    <p>Cette SAé nous a permis d'améliorer notre logique sur RStudio. La principale difficulté était la segmentation des communes pour obtenir un R² le plus proche de 1 et ainsi avoir un bon modèle de prévisions.</p>
+  </div>
+  <div class="bottom-nav">
+    <a href="kpi.html">← SAé précédente</a>
+    <a href="stats-inf.html">SAé suivante →</a>
+  </div>
+</div>
+</body>
+</html>
